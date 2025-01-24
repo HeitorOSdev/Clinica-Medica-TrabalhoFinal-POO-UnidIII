@@ -121,6 +121,7 @@ public class TesteController {
     
     @FXML
     private void addMedico(ActionEvent event) throws IOException {
+//    	medicoService.createTable();
         if (!tfNome.getText().isEmpty() && !tfCrm.getText().isEmpty() && !tfEspecialidade.getText().isEmpty() && !tfEmail.getText().isEmpty() && !tfTelefone.getText().isEmpty()) {
             String nome = tfNome.getText();
             String crm = tfCrm.getText();

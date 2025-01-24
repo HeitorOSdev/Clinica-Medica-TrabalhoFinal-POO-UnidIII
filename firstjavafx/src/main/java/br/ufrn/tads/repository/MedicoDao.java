@@ -9,6 +9,7 @@ import java.util.List;
 import br.ufrn.tads.model.Medico;
 
 public class MedicoDao implements Dao<Medico> {
+	
     @Override
     public Medico findById(Long id) {
         Medico medico = null;
