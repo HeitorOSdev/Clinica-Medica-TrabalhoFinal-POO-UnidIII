@@ -1,9 +1,0 @@
---Login--
---Usuario:postgres
---Senha:admin
-
---Comando para criar a database--
-CREATE DATABASE clinicadb TEMPLATE template1
-
---Comando para criar as tabelas--
-

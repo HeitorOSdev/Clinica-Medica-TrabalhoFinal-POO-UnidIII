@@ -6,12 +6,12 @@ import java.util.Objects;
 public class Paciente {
 
 	private Long id;
-	private String cpf;
 	private String nome;
+	private String cpf;
 	private Date dataNascimento = new Date();
+	private String genero;
 	private String telefone;
 	private String email;
-	private String genero;
 	
 	public Paciente () {
 		
